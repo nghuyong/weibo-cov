@@ -77,6 +77,7 @@ Paper: [Weibo-COV: A Large-Scale COVID-19 Social Media Dataset from Weibo](https
 - Amount: 
 40,893,832 tweets filtered from 692,792,816 original tweets by keywords. 
 In addition, we also release all original tweets with GEO tag without keywords filtering, covering 45,901,994 tweets.
+- Sample:
 ```csv
 _id,user_id,crawl_time,created_at,like_num,repost_num,comment_num,content,origin_weibo,geo_info
 IBddo6Ee8,96e7c5482014ffbb,1587524917,2020-04-01 00:00,0,0,0,【#印度返乡人员被用水枪消杀# 长途步行回家20多人死在路上】3月30日，印度北方邦工作人员用水枪对返乡工人进行“消杀”。据媒体报道，这些人在德里等地打工。3月24日，印度宣布全国封锁21天。工人们没有了收入，因此选择回到家乡，但所有交通工具已停运，数百万人只能走路回家。#聚焦新冠肺炎疫情#@新京报我们视频 http://t.cn/A6ZSra22转发理由:转发微博,IBb2q8ghj,
