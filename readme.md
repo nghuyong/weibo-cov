@@ -67,6 +67,9 @@ Finally, we build a Weibo active user pool with **20 million** users, accounting
 ⚠️**Note that the following datasets all have been desensitized**
 
 ### COVID-19
+**[UPDATE-2020-08-19]** We have received hundreds of application emails including the University of Pennsylvania, Tsinghua University, the University of Hong Kong and many other research institutions around the world.
+If you have new improvement ideas when you using this dataset, you could free feel to email us.
+
 **[UPDATE-2020-06-24]** Add the field of `user_id` to identify each user. 
 To respect privacy, the released `user_id` is the **hashed result** of the origin Weibo `user_id`.
 
