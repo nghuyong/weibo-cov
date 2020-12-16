@@ -95,13 +95,19 @@ If you want to acquire the corpus. Please fill the [application form](https://ra
 
 - Cite this dataset
 ```
-@misc{hu2020weibocov,
-    title={Weibo-COV: A Large-Scale COVID-19 Social Media Dataset from Weibo},
-    author={Yong Hu and Heyan Huang and Anfan Chen and Xian-Ling Mao},
-    year={2020},
-    eprint={2005.09174},
-    archivePrefix={arXiv},
-    primaryClass={cs.SI}
+@inproceedings{hu-etal-2020-weibo,
+    title = "{W}eibo-{COV}: A Large-Scale {COVID}-19 Social Media Dataset from {W}eibo",
+    author = "Hu, Yong  and
+      Huang, Heyan  and
+      Chen, Anfan  and
+      Mao, Xian-Ling",
+    booktitle = "Proceedings of the 1st Workshop on {NLP} for {COVID}-19 (Part 2) at {EMNLP} 2020",
+    month = dec,
+    year = "2020",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://www.aclweb.org/anthology/2020.nlpcovid19-2.34",
+    doi = "10.18653/v1/2020.nlpcovid19-2.34",
 }
 ```
 
