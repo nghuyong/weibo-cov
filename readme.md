@@ -66,17 +66,54 @@ Finally, we build a Weibo active user pool with **20 million** users, accounting
 
 ⚠️**Note that the following datasets all have been desensitized**
 
-### COVID-19
-**[UPDATE-2020-08-19]** We have received hundreds of application emails including the University of Pennsylvania, Tsinghua University, the University of Hong Kong and many other research institutions around the world.
-If you have new improvement ideas when you using this dataset, you could free feel to email us.
+### Weibo-COV
+Paper: [Weibo-COV: A Large-Scale COVID-19 Social Media Dataset from Weibo](https://arxiv.org/abs/2005.09174)
+
+#### News
+**[UPDATE-2021-01-18]** We released **Weibo-COV V2**, including 20 million Weibo active user pool!
+
+**[UPDATE-2020-12-30]** We have received over **130** applications from all over the word!!
+ Weibo-COV has supported more than **30** publications and more than **100** programs! 
+ **Weibo-COV V2** is coming soon!! If you have some advices, feel free to email me!
+
+**[UPDATE-2020-10-06]** Our paper about this dataset has been accepted by [the 1st Workshop on NLP for COVID-19 (Part 2) at EMNLP2020](https://www.nlpcovid19workshop.org/emnlp2020/).
 
 **[UPDATE-2020-06-24]** Add the field of `user_id` to identify each user. 
 To respect privacy, the released `user_id` is the **hashed result** of the origin Weibo `user_id`.
 
-Paper: [Weibo-COV: A Large-Scale COVID-19 Social Media Dataset from Weibo](https://arxiv.org/abs/2005.09174)
+#### Weibo-COV V2
+Compared with Weibo-COV, Weibo-COV V2 has **longer time span**, **bigger data size** and **more refined keyword filtering method**. 
+We also released **20 million Weibo active user pool** after desensitization to promote extensive and in-depth researches.
 
+- Time Period: 2019-12-01 00:00 - 2020-12-30 23:59 (GMT+8)
+- [Keywords](./keywords/Weibo-COV-V2.txt): Common keywords and monthly different keywords. For one month, we use common keywords and this month's specific keywords to filter this month's all original tweets. 
+- Amount: **65,175,112** tweets filtered from **2,615,185,101** original tweets by keywords.
+- Sample: Weibo-COV V2
+```csv
+_id,user_id,crawl_time,created_at,like_num,repost_num,comment_num,content,origin_weibo,geo_info
+Jwm2cyhQQ,e0470a66f95fe66d,1607931932,2020-12-01 00:00,0,0,0,【抗疫路上，#幕后的科研专家走了#】疫苗攻关争分夺秒，他总想再快点！因连续工作、过度劳累，中国医学科学院病原生物学研究所研究员赵振东教授倒在了出差途中，最终抢救无效，于9月17日在北京不幸逝世，享年53周岁。赵振东教授是我国从事病原生物学和感染免疫学研究的知名专家，疫情伊始，他说：“这...全文转发理由:[泪],Jwl894jgH,
+Jwm2ld0aZ,8034accc2f9b93ae,1607986175,2020-12-01 00:00,0,0,0,【蒙古羊肉运抵武大中南医院，#雷神山医护工作者吃上蒙古羊# 】经过检验、隔离等程序， 当日中午，一辆载满蒙古羊肉的货柜车从武汉阳逻港运到武汉大学中南医院 。货车开箱后，工作人员立即完成抽检，再由后勤保障部的工作人员运送至医院食堂，羊肉将分发给医院一线医务人员。致敬这些曾奋斗在雷神山的...全文转发理由://@午后狂睡:………馋了,JwlnBBw1c,
+Jwm2gs8h0,2079268f5b85f1a8,1608006715,2020-12-01 00:00,0,0,0,😷疫情对企业而言，是一个加速淘汰和加速升级的过程，而往往最能存活下来发展的是那些最能适应环境变化的。12XEdaN01。�社群团购的商业模式，完美契合经济发展脚步，是最能完美承接原有行业属性且继承发展！,,
+Jwm2eDupl,8af7d9c40104eecd,1608046707,2020-12-01 00:00,0,0,0,@湖南卫视 ❓贵台今晚综艺上愚蠢的提问和无知的tag出自何处，是导演的错，还是贵台因为疫情已经可以不关注自己艺人行程及作品，甚至，可以为所欲为了呢？  1️⃣ 蔡/程/昱自18年起参加贵台srrx第一季 并成为‼️年度首席歌手之一‼️节目结束后签约为你家演艺事业部艺人，做了贵台的打工仔，兢兢业业，...全文转发理由:@湖南卫视 [微笑],JwlJrftvi,
+Jwm2cAuxG,03002291162f3d23,1608113760,2020-12-01 00:00,0,0,0,今年因为疫情，很多台湾歌手都留在对岸参加那边的跨年演唱会！一时之间，台湾各地的跨年阵容重回了十年前群星云集的画面！比如台北跨年场，就会集齐伍佰、魚丁糸、田馥甄、林宥嘉、萧敬腾、艾怡良、宇宙人等等音乐人，比近年的阵容夸张很多！！  这个阵容还在公布中，估计到12月月底才有完整的模样，届...全文转发理由:现在游去对岸还来得及吗,Jwlcrf9Lz,
+Jwm2zp42u,46d455bafebcb289,1608125947,2020-12-01 00:00,0,0,0,希望2020年的12月一切都顺顺利利的呀！ 2020年的前半年与下半年 是我人生很重要的转折点 迄今，仍然会很怀念疫情在家的日子 那是我自上学来 在家最久的日子 你好！12月,,
+```
+- Sample: 20 million Weibo active user pool
+```csv
+user_id,gender,province,city,birthday,fans_num,vip_level,crawl_time
+6e8c581b932a9d4e,女,北京,,0001-00-00,199182410,6级,1576187979
+f53557f7d61027bc,女,北京,海淀区,0001-00-00,185217690,7级,1576148765
+2036a1474ebcc02c,女,北京,海淀区,01-01,183843761,6级,1576085666
+a98d14fb1231482b,女,北京,,1984-10-15,159145854,6级,1575999468
+2102b3df71b308c6,女,北京,海淀区,0001-00-00,125274267,7级,1576189968
+```
+- Download:
+If you want to acquire the corpus. Please fill the [application form](https://raw.githubusercontent.com/nghuyong/weibo-public-opinion-datasets/master/.github/Weibo_COV_V2_Application_Form.pdf) and send to Yong Hu (huyong@bit.edu.cn) and Anfan Chen(caf16@ustc.edu.cn).
+
+
+#### Weibo-COV
 - Time Period: 2019-12-01 00:00 - 2020-04-30 23:59 (GMT+8)
-- Keyowds: [totle of 179 selected keywords](./keywords/COVID-19.txt)
+- [Keywords](./keywords/Weibo-COV.txt): totle of 179 selected keywords
 - Amount: 
 40,893,832 tweets filtered from 692,792,816 original tweets by keywords. 
 In addition, we also release all original tweets with GEO tag without keywords filtering, covering 45,901,994 tweets.
@@ -93,7 +130,8 @@ IBddw8jIx,01c31da0c3b9b553,1590145129,2020-04-01 00:00,0,0,0,【#你好，明天
 - Download:
 If you want to acquire the corpus. Please fill the [application form](https://raw.githubusercontent.com/nghuyong/weibo-public-opinion-datasets/master/.github/Weibo_COV_Application_Form.pdf) and send to Yong Hu (huyong@bit.edu.cn) and Anfan Chen(caf16@ustc.edu.cn).
 
-- Cite this dataset
+#### Cite this dataset
+If you use Weibo-COV or Weibo-COV V2 in a scientific publication, I would appreciate that you can also cite the following BibTex entry:
 ```
 @inproceedings{hu-etal-2020-weibo,
     title = "{W}eibo-{COV}: A Large-Scale {COVID}-19 Social Media Dataset from {W}eibo",
@@ -111,15 +149,6 @@ If you want to acquire the corpus. Please fill the [application form](https://ra
 }
 ```
 
-<h2 align="center">Citation</h2>
-
-If you use this work in a scientific publication, I would appreciate that you can also cite the following BibTex entry:
-
-```
-@misc{nghuyong2020@weibo-public-opinion-dataset,
-  title={weibo-public-opinion-dataset},
-  author={Yong Hu},
-  howpublished={\url{https://github.com/nghuyong/weibo-public-opinion-dataset}},
-  year={2020}
-}
-```
+## Contact
+If you have good ideas on social media computing or public opinion analysis, and want to communicate with me. 
+You can feel free to email me: huyong@bit.edu.cn 
