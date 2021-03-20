@@ -20,6 +20,10 @@
   </a>
 </p>
 
+
+**UPDATE: The one-stop scientific research data service platform [socaisensor.top](http://socialsensor.top/) has been fully launched!! 
+Data acquisition, data analysis, and data application can be realized with just a few clicks. Welcome to try and cooperation👏👏👏**
+
 <h2 align="center">Introduction</h2>
 
 Sina Weibo is Chinese largest public social media platform. 
