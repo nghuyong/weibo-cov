@@ -112,7 +112,7 @@ a98d14fb1231482b,女,北京,,1984-10-15,159145854,6级,1575999468
 2102b3df71b308c6,女,北京,海淀区,0001-00-00,125274267,7级,1576189968
 ```
 - Download:
-If you want to acquire the corpus. Please fill the [application form](https://raw.githubusercontent.com/nghuyong/weibo-public-opinion-datasets/master/.github/Weibo_COV_V2_Application_Form.pdf) and send to Yong Hu (huyong@bit.edu.cn) and Anfan Chen(caf16@ustc.edu.cn).
+If you want to acquire the corpus. Please fill the [application form](https://raw.githubusercontent.com/nghuyong/weibo-public-opinion-datasets/master/.github/Weibo_COV_V2_Application_Form.pdf) and send to Yong Hu (nghuyong@163.com) and Anfan Chen(caf16@ustc.edu.cn).
 
 
 #### Weibo-COV
