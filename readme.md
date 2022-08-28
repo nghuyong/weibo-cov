@@ -21,7 +21,7 @@
 </p>
 
 
-**UPDATE: The end-to-end research service platform [yisukeyan.com](https://yisukeyan.com/) has been fully launched!! Feel free to contact us!👏👏👏**
+**The end-to-end research service platform [yisukeyan.com](https://yisukeyan.com/) has been launched!! Feel free to contact us!👏👏👏**
 
 <h2 align="center">Introduction</h2>
 
