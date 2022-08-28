@@ -21,42 +21,25 @@
 </p>
 
 
-**UPDATE: The one-stop scientific research data service platform [socialsensor.top](http://socialsensor.top/) has been fully launched!! 
-Data acquisition, data analysis, and data application can be realized with just a few clicks. Welcome to try and cooperation👏👏👏**
+**UPDATE: The end-to-end research service platform [yisukeyan.com](https://yisukeyan.com/) has been fully launched!! Feel free to contact us!👏👏👏**
 
 <h2 align="center">Introduction</h2>
 
-Sina Weibo is Chinese largest public social media platform. 
-The latest and most popular social events will be disclosed and discussed on Weibo as soon as possible.
-Therefore, it is of great significance to build a real-time and full-scale Weibo public opinion dataset.
+Sina Weibo is the largest Chinese public social media platform. The latest and most popular social events will be disclosed and discussed on Weibo as soon as possible. Therefore, it is of great significance to build a real-time and full-scale Weibo public opinion dataset.
 
-At present, given specified keywords and a specified period, there are two kinds of methods for
-constructing Weibo tweet datasets: (1) Applying advanced search API given by Weibo; (2) Traversing all Weibo users, collecting all their tweets in
-the specified period, and then filtering tweets with specified keywords.
+At present, given specified keywords and a specified period, there are two kinds of methods for constructing Weibo tweet datasets: (1) Applying advanced search API given by Weibo; (2) Traversing all Weibo users, collecting all their tweets in the specified period, and then filtering tweets with specified keywords.
 
-However, for the first kinds of method, due to
-the limitation of the Weibo search API, the result of
-one time search contains up to 1000 tweets, making it difficult to build large-scale datasets. As
-for the second kinds of method, although we could
-build large-scale datasets with almost no omissions,
-traversing all billions of Weibo users requires very
-long time and large bandwidth resources. 
-In addition, a large number of Weibo users are inactive,
-and it makes no sense to traverse their homepages,
-because they may not post any tweets in the specified period.
+However, for the first kinds of method, due to the limitation of the Weibo search API, the result of one time search contains up to 1000 tweets, making it difficult to build large-scale datasets. As for the second kinds of method, although we could build large-scale datasets with almost no omissions,
+traversing all billions of Weibo users requires very long time and large bandwidth resources.  In addition, a large number of Weibo users are inactive,
+and it makes no sense to traverse their homepages, because they may not post any tweets in the specified period.
 
 ![](./images/dataset-builder.png)
 
-To alleviate these limitations, we propose a novel
-method to construct Weibo tweet datasets, which
-can build large-scale datasets with high construction efficiency. Specifically, we first build and dynamically maintain a high-quilty Weibo active user
-pool (just a small part of all users), and then we
-only traverse these users and collect all their tweets
-with specified keywords in the specified period.
+To alleviate these limitations, we propose a novel method to construct Weibo tweet datasets, which can build large-scale datasets with high construction efficiency. Specifically, we first build and dynamically maintain a high-quilty Weibo active user pool (just a small part of all users), and then we
+only traverse these users and collect all their tweets with specified keywords in the specified period.
 
 <h2 align="center">Weibo Active User Pool</h2>
-Based on init seed users and continuous expansion through social relationships, 
-we first build a Weibo user pool including more than 250 million users.
+Based on init seed users and continuous expansion through social relationships, we first build a Weibo user pool including more than 250 million users.
 The active Weibo user pool is constructed based on Weibo user pool and follow 4 rules:
 
 |Item|Rule|Item|Rule|
@@ -132,7 +115,7 @@ IBddFiWg6,dd4a4eac5fa1acdf,1590144952,2020-04-01 00:00,8,1,4,许可馨，苏州�
 IBddw8jIx,01c31da0c3b9b553,1590145129,2020-04-01 00:00,0,0,0,【#你好，明天#】高考确定延期，备战的日子又“充值”一个月。从忧心“翻车”到立志“翻盘”，不少人五味杂陈。但请相信，时间不会辜负每一分努力，梦想不会怠慢每一个脚印。对考生而言，因为疫情见证了历史，更因为坚持参与着历史。健康和公平，一个都不能落下；现在和未来，每一个都要抓在手中。 转发理由:[加油],IBd4FplhX,
 ```
 - Download:
-If you want to acquire the corpus. Please fill the [application form](https://raw.githubusercontent.com/nghuyong/weibo-public-opinion-datasets/master/.github/Weibo_COV_Application_Form.pdf) and send to Yong Hu (huyong@bit.edu.cn) and Anfan Chen(caf16@ustc.edu.cn).
+If you want to acquire the corpus. Please fill the [application form](https://raw.githubusercontent.com/nghuyong/weibo-public-opinion-datasets/master/.github/Weibo_COV_Application_Form.pdf) and send to Yong Hu (nghuyong@163.com) and Anfan Chen(caf16@ustc.edu.cn).
 
 #### Cite this dataset
 If you use Weibo-COV or Weibo-COV V2 in a scientific publication, I would appreciate that you can also cite the following BibTex entry:
@@ -152,7 +135,3 @@ If you use Weibo-COV or Weibo-COV V2 in a scientific publication, I would apprec
     doi = "10.18653/v1/2020.nlpcovid19-2.34",
 }
 ```
-
-## Contact
-If you have good ideas on social media computing or public opinion analysis, and want to communicate with me. 
-You can feel free to email me: huyong@bit.edu.cn 
