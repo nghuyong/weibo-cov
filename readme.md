@@ -59,9 +59,9 @@ Paper: [Weibo-COV: A Large-Scale COVID-19 Social Media Dataset from Weibo](https
 #### News
 **[UPDATE-2021-01-18]** We released **Weibo-COV V2**, including 20 million Weibo active user pool!
 
-**[UPDATE-2020-12-30]** We have received over **130** applications from all over the word!!
+**[UPDATE-2020-12-30]** We have received over **200** applications from all over the word!!
  Weibo-COV has supported more than **30** publications and more than **100** programs! 
- **Weibo-COV V2** is coming soon!! If you have some advices, feel free to email me!
+ **Weibo-COV V2** is coming soon!! If you have some advices, feel free to email us!
 
 **[UPDATE-2020-10-06]** Our paper about this dataset has been accepted by [the 1st Workshop on NLP for COVID-19 (Part 2) at EMNLP2020](https://www.nlpcovid19workshop.org/emnlp2020/).
 
