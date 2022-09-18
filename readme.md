@@ -57,9 +57,11 @@ Finally, we build a Weibo active user pool with **20 million** users, accounting
 Paper: [Weibo-COV: A Large-Scale COVID-19 Social Media Dataset from Weibo](https://arxiv.org/abs/2005.09174)
 
 #### News
+**[UPDATE-2022-09-18]** The research projects supported by Weibo-COV have exceeded 200!!
+
 **[UPDATE-2021-01-18]** We released **Weibo-COV V2**, including 20 million Weibo active user pool!
 
-**[UPDATE-2020-12-30]** We have received over **200** applications from all over the word!!
+**[UPDATE-2020-12-30]** We have received over **130** applications from all over the word!!
  Weibo-COV has supported more than **30** publications and more than **100** programs! 
  **Weibo-COV V2** is coming soon!! If you have some advices, feel free to email us!
 
