@@ -51,7 +51,7 @@ IBddFiWg6,dd4a4eac5fa1acdf,1590144952,2020-04-01 00:00,8,1,4,许可馨，苏州�
 IBddw8jIx,01c31da0c3b9b553,1590145129,2020-04-01 00:00,0,0,0,【#你好，明天#】高考确定延期，备战的日子又“充值”一个月。从忧心“翻车”到立志“翻盘”，不少人五味杂陈。但请相信，时间不会辜负每一分努力，梦想不会怠慢每一个脚印。对考生而言，因为疫情见证了历史，更因为坚持参与着历史。健康和公平，一个都不能落下；现在和未来，每一个都要抓在手中。 转发理由:[加油],IBd4FplhX,
 ```
 - Download:
-If you want to acquire the corpus. Please fill the [application form](https://raw.githubusercontent.com/nghuyong/weibo-public-opinion-datasets/master/.github/Weibo_COV_Application_Form.pdf) and send to Yong Hu (nghuyong@163.com) and Anfan Chen(caf16@ustc.edu.cn).
+If you want to acquire the corpus. Please fill the [application form](https://raw.githubusercontent.com/nghuyong/weibo-public-opinion-datasets/master/.github/Weibo_COV_Application_Form.pdf) and send to Yong Hu (nghuyong@163.com) and Anfan Chen(caftsinghuaedu@gmail.com).
 
 ## Weibo-COV 2.0
 Compared with Weibo-COV 1.0, Weibo-COV 2.0 has **longer time span**, **bigger data size** and **more refined keyword filtering method**. 
