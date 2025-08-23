@@ -50,8 +50,7 @@ IBddu1G7S,3bf1604511aee5dd,1587531260,2020-04-01 00:00,1,0,0,#乔木美国疫情
 IBddFiWg6,dd4a4eac5fa1acdf,1590144952,2020-04-01 00:00,8,1,4,许可馨，苏州人，中国药科大学2019届本科毕业生。公派留学生，目前就读于匹兹堡大学。 李文亮医生垂危之际出口成脏，骂留学生，骂中国人，恨国蛆一枚，怎么就争取到公费资助的呢？ 前有厦门大学田佳良，后有药科大学许可馨，我们的大学怎么就培养出这么多精致的双面人？ 建议药大追加开除，建议取消公费资助，建议追究提供公费资助的机构负责人责任，建议彻查此渣相关联系人背景，净化社会空气。 【补充评论】#留学生许可馨# 的两面人表现值得重视，不可一斥了之，轻轻放过。 此人家境优越，顺风顺水，还托国家的福成了公派留学生，可谓精英家庭成功培养出的精英学子。可是她的内在，却具有鲜明的反社会型人格。 据许可馨的初中同学爆料：许可馨在初中人品就极差无比，成绩很好但是心肠歹毒，随手携带一个小本本，上面都是骂人的话。有网友扒出许可馨的小号，其污浊与下贱更是让人目瞪口呆。 大家是否记得，电影《少年的你》里面有一个名叫魏莱的优等生，面容姣好、目光清澈、成绩出色、人畜无害，实际上却心思毒辣、霸凌同学甚至置人于死地。这种女孩的典型特征是：家境优渥、成绩出色、人人当她们是好学生，其实却是狠毒渣女，极致两面人。 具体到许可馨身上，就是突然呈现另一付嘴脸，对外跪舔，对内鄙夷，其他案例如：洁洁良、杨舒平等。 教育部门必须深刻反省，不能允许诸如此类的反社会人格者利用自己的伪装占尽社会便宜，然后再反噬社会。[组图共11张]转发理由:广大微友虽然有些戾气，言论有些过于犀利，可听着很舒服！ 关于许可馨发表的不当言论，居然也有人给洗白？花钱就可以让一些水军抛弃良心颠倒是非吗？花钱就可以下热搜吗？ 还是说她背后所牵扯的实力够大，罔顾广大微民的愤怒，强行洗白！是否需要一起查查许可馨背后的保护伞了！,IB3OCyTtK,
 IBddw8jIx,01c31da0c3b9b553,1590145129,2020-04-01 00:00,0,0,0,【#你好，明天#】高考确定延期，备战的日子又“充值”一个月。从忧心“翻车”到立志“翻盘”，不少人五味杂陈。但请相信，时间不会辜负每一分努力，梦想不会怠慢每一个脚印。对考生而言，因为疫情见证了历史，更因为坚持参与着历史。健康和公平，一个都不能落下；现在和未来，每一个都要抓在手中。 转发理由:[加油],IBd4FplhX,
 ```
-- Download:
-If you want to acquire the corpus. Please fill the [application form](https://raw.githubusercontent.com/nghuyong/weibo-public-opinion-datasets/master/.github/Weibo_COV_Application_Form.pdf) and send to Yong Hu (nghuyong@163.com) and Anfan Chen(caftsinghuaedu@gmail.com).
+- Download: https://pan.baidu.com/s/1SwbkEnuXrUFmRj1lx_AQlg?pwd=r8gn
 
 ## Weibo-COV 2.0
 Compared with Weibo-COV 1.0, Weibo-COV 2.0 has **longer time span**, **bigger data size** and **more refined keyword filtering method**. 
@@ -79,8 +78,7 @@ f53557f7d61027bc,女,北京,海淀区,0001-00-00,185217690,7级,1576148765
 a98d14fb1231482b,女,北京,,1984-10-15,159145854,6级,1575999468
 2102b3df71b308c6,女,北京,海淀区,0001-00-00,125274267,7级,1576189968
 ```
-- Download:
-If you want to acquire the corpus. Please fill the [application form](https://raw.githubusercontent.com/nghuyong/weibo-public-opinion-datasets/master/.github/Weibo_COV_V2_Application_Form.pdf) and send to Yong Hu (nghuyong@163.com) and Anfan Chen(caftsinghuaedu@gmail.com).
+- Download: https://pan.baidu.com/s/1mxU5RbnGBNRvR4Ci-9d0Hg?pwd=jffm
 
 ## Citation
 Weibo-COV: A Large-Scale COVID-19 Social Media Dataset from Weibo [[pdf]](https://arxiv.org/abs/2005.09174)
